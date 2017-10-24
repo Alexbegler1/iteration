@@ -13,3 +13,11 @@ print_scores(names, scores)
 congratulations(names, scores)
 
 add_one(scores)
+
+print sum(scores)
+
+#same thing as above code
+#sum = sum(numbers)
+# print sum
+
+print max(scores)
