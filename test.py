@@ -11,3 +11,5 @@ iterate(names)
 print_scores(names, scores)
 
 congratulations(names, scores)
+
+add_one(scores)
