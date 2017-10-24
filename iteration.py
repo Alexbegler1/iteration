@@ -20,7 +20,7 @@ def add_one(list):
 	for i in range(0, len(list)):
 		list[i] += 1
 
-	return list
+	print list
 
 def print_scores(names, scores):
 	for i in range(0, len(names)):
