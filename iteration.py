@@ -51,3 +51,17 @@ def max(numbers):
 			current_max = n
 
 	return current_max
+
+def average(numbers):
+	sum = 0
+	for n in numbers:
+		sum = sum + n
+	average = sum / len(numbers)
+	return average
+	
+def smallest_n(numbers):
+	for n in numbers:
+		if n 
+
+# function that finds average
+# function that finds average but drops the lowest 2 scores
