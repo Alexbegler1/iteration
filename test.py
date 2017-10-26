@@ -22,4 +22,4 @@ print sum(scores)
 
 print max(scores)
 
-print average(scores)
+print average_minus2(scores)

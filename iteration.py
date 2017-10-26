@@ -60,8 +60,21 @@ def average(numbers):
 	return average
 	
 def smallest_n(numbers):
+	current_min1 = numbers[0]
 	for n in numbers:
-		if n 
+		if n > current_min1:
+			current_min1 = n
+	numbers.remove(current_min1)
+
+	current_min2 = numbers[0]
+	for n in numbers:
+		if n > current_min2:
+			current_min2 = n
+	numbers.remove(current_min2)
+
+def average_minus2(numbers):
+	smallest_n(numbers)
+	print average(numbers)
 
 # function that finds average
 # function that finds average but drops the lowest 2 scores
