@@ -59,22 +59,26 @@ def average(numbers):
 	average = sum / len(numbers)
 	return average
 	
-def smallest_n(numbers):
+
+def average_minus2(numbers):
 	current_min1 = numbers[0]
 	for n in numbers:
-		if n > current_min1:
+		if n < current_min1:
 			current_min1 = n
-	numbers.remove(current_min1)
 
 	current_min2 = numbers[0]
 	for n in numbers:
-		if n > current_min2:
+		if n != current_min1:
+			n = current_min2
+		if n < current_min2:
 			current_min2 = n
-	numbers.remove(current_min2)
 
-def average_minus2(numbers):
-	smallest_n(numbers)
-	print average(numbers)
+	total = 0
+	for n in numbers:
+		total += n 
+	total = total - current_min1 - current_min2
+	average_minus2 = total / (len(numbers) - 2)
+	return average_minus2
 
 # function that finds average
 # function that finds average but drops the lowest 2 scores

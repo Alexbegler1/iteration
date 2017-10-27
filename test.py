@@ -1,25 +1,25 @@
 from iteration import *
 
-scores = [100, 90, 85, 100, 0]
+scores = [100, 90, 85, 100, 1]
 
-iterate(scores)
+#iterate(scores)
 
-names = ["Amy", "Bill", "Carol", "Dave", "Emily"]
+#names = ["Amy", "Bill", "Carol", "Dave", "Emily"]
 
-iterate(names)
+#iterate(names)
 
-print_scores(names, scores)
+#print_scores(names, scores)
 
-congratulations(names, scores)
+#congratulations(names, scores)
 
-add_one(scores)
+#add_one(scores)
 
-print sum(scores)
+#print sum(scores)
 
 #same thing as above code
 #sum = sum(numbers)
 # print sum
 
-print max(scores)
+#print max(scores)
 
 print average_minus2(scores)
