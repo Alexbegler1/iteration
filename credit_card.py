@@ -34,8 +34,8 @@ def check_credit_card(number):
 
 def create_credit_card():
     number = randint(1000000000000000, 9999999999999999)
-    #while check_credit_card(number) == "invalid":
-        #number = randint(1000, 9999)
+    while check_credit_card(number) == "invalid":
+        number = randint(1000, 9999)
     return number
 print create_credit_card()
 
